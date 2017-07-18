@@ -6755,3 +6755,8 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+@media all (min-width: @screen-sm-min) {
+  .content-main{
+    text-shadow: 2px 2px #02010a;
+  }
+}

@@ -1,10 +1,11 @@
- .wrapper {
-   .make-row();
- }
- .content-main {
-   .make-column(8);
- }
- .content-secondary {
-   .make-column(3);
-   .make-column-offset(1);
- }
+@media (max-width: 768px) {
+  .logo{
+    text-align: center;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .row-nav {
+    text-align: center;
+  }
+}
