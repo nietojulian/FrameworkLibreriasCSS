@@ -7,122 +7,178 @@
     <meta name="viewport" content="width=device-width,initial-scale=1, maximun-scale=1">
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+      <link href="css/custom.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     <title>Blog de Turismo</title>
   </head>
   <body>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/custom.js"></script>
+
 
     <!--Fila para el logo y lla barra de navegacion-->
     <div class="row">
       <!--Columna para el logo-->
-      <div class="col m2 push-m1">
+      <div class="col m2 s6 push-m1">
         <div class="card">
-          <img class="logo" src="imagenes/viajar-mundo.jpg" alt="" width="100%">
+          <img class="respomsive-img" src="imagenes/viajar-mundo.jpg" alt="" width="100%">
         </div>
       </div>
       <!--Contenedor para la barra de navegacion-->
-      <div class="col m9  push-m1">
-        <div class="card">
-          <h5>Nav bar</h5>
-        </div>
-        <br><br><br>
-        <div class="card">
-          <p>Nuestro destino de viaje nunca es un lugar, sino una nueva forma de ver las cosas</p>
-        </div>
+      <div class="col m9 push-m1">
+        <nav>
+            <div class="nav-wrapper white">
+              <ul id="nav-mobile" class="right hide-on-small-and-down">
+                <li><a class="waves-effect waves-light btn">Inicio <i class="material-icons right">home</i></a></li>
+                <li><a class="waves-effect waves-light btn">Estuve en <i class="material-icons right">place</i></a></li>
+                <li><a class="waves-effect waves-light btn">Mejores viajes <i class="material-icons right">photo</i></a></li>
+                <li><a class="waves-effect waves-light btn">Recomendaciones <i class="material-icons right">photo_camera</i></a></li>
+              </ul>
+            </div>
+          </nav>
+        <p>Nuestro destino de viaje nunca es un lugar, sino una nueva forma de ver las cosas</p>
       </div>
     </div>
 
-
-    <!--Fila para Redes sociales y galeria de viajes-->
-    <div class="row">
-      <!--Columna para Redes Sociales-->
-      <div class="col m1 center-align" >
-        <div class="card">
-          <img src="imagenes/facebook.jpg" alt="" width="40px"><br>
-          <img src="imagenes/twitter.jpg" alt="" width="40px"><br>
-          <img src="imagenes/instagram.jpg" alt="" width="40px"><br>
-          <img src="imagenes/youtube.jpg" alt="" width="40px"><br>
-        </div>
-      </div>
-      <!--Columna para imagenes 1-->
-      <div class="col m4 center-align" >
-        <div class="card">
-          <img src="imagenes/londres.jpg" alt="" width="100%"><br>
-          <img src="imagenes/roma.jpg" alt="" width="100%"><br>
-        </div>
-      </div>
-      <!--Columna para imagenes 2-->
-      <div class="col m3 center-align" >
-        <div class="card">
-          <img src="imagenes/eiffel.jpg" alt="" width="100%"><br>
-        </div>
-      </div>
-      <!--Columna para imagenes 3-->
-      <div class="col m4 center-align" >
-        <div class="card">
-          <img src="imagenes/sydney.jpg" alt="" width="100%"><br>
-          <img src="imagenes/egipto.jpg" alt="" width="100%"><br>
-        </div>
-      </div>
+    <div class="parallax-container">
+      <div class="parallax"><img src="imagenes/winter.jpg"></div>
     </div>
+      <!--Fila para Redes sociales y galeria de viajes-->
+      <div class="row">
+        <!--Columna para Redes Sociales-->
+        <div class="col m1" >
+          <div class="card center">
+            <a class="responsive-img z-depth-3" href="http://www.facebook.com#" target=”_blank”><img src="imagenes/facebook.jpg" alt=""width="35px" ></a><br>
+            <a class="responsive-img z-depth-3" href="http://www.twitter.com#" target=”_blank”><img src="imagenes/twitter.jpg" alt=""width="35px" ></a><br>
+            <a class="responsive-img z-depth-3" href="http://www.instagram.com#" target=”_blank”><img src="imagenes/instagram.jpg" alt=""width="35px" ></a><br>
+            <a class="responsive-img z-depth-3" href="http://www.youtube.com#" target=”_blank”><img src="imagenes/youtube.jpg" alt=""width="35px" ></a><br>
 
-    <!--Fila para Contenido-->
-    <div class="row">
-      <!--Columna para el Articulo-->
-      <div class="col m8">
-        <div class="card">
-          <!--Primer Articulo-->
-          <div class="row">
-            <h3>Cancun</h3>
-            <h6>Fecha de publicacion: 4 de noviembre de 2016</h6>
-            <h6>Ubicación: Cancun - Mexico</h6>
-            <div class="col m4">
-              <br><img src="imagenes/cancun.jpg" alt="" width="100%">
-            </div>
-            <div class="col m8 " >
-              <p>
-                Cuenta con una zona metropolitana de más de 676 000 habitantes (según datos del Censo de Población y Vivienda de 2010). Sus coordenadas geográficas son 21°09′38″N 86°50′51″O, y su altitud va desde 1 a 8 msnm, debido a una pendiente que crece de este a oeste, paralela a toda la ciudad. Se ubica a una distancia de unos 370 km de la capital del estado de Quintana Roo —Chetumal—, a 70 km de Playa del Carmen; y colinda hacia el este con el mar Caribe, al norte con el municipio de Isla Mujeres, al oeste con el municipio de Lázaro Cárdenas, y al sur con el municipio de Solidaridad. La extensión del municipio de Benito Juárez es de 1664 km² y cuenta con 22 km de costa.<br>
-              </p>
-            </div>
-            <div class="col m12" >
-              <p>
-                Cancún se encuentra ubicada al noreste de la península de Yucatán, y por la costa se puede observar claramente Isla Mujeres, posicionada al este, a 7 km de distancia en la llamada Bahía de Mujeres, zona que cruzan diversos barcos y lanchas que transportan todo el día a los pobladores de la isla hacia la parte continental.<br>
-                Fernando Martí Brito, cronista oficial de Cancún, inicialmente dividió a Cancún en tres zonas, o tres "Cancunes", geográfica y socialmente hablando (datos de 1985).9​ Actualmente, Cancún se encuentra dividido en cinco zonas principales, perfectamente identificables para el gobierno municipal y la sociedad cancunense
-              </p>
-            </div>
+
           </div>
-
-          <!--Segundo Articulo-->
-          <div class="row">
-            <h3>Pekin</h3>
-            <h6>Fecha de publicacion: 23 de Junio de 2001</h6>
-            <h6>Ubicación: Pekin - China</h6>
-            <div class="col m4">
-              <br><img src="imagenes/pekin2.jpg" alt="" width="100%">
-            </div>
-            <div class="col m8 " >
-              <p>
-                Pekín, Pequín o Beijing (chino simplificado y tradicional: 北京, pinyin: Běijīng, Wade-Giles: Pei-ching, pronunciado: [Péi-Chíng]( escuchar), literalmente «capital del Norte») es la capital de la República Popular China y es una de las ciudades más pobladas del mundo con 21 150 000 personas en 2013. <br>
-              Situada en la periferia de la antigua civilización china, Pekín se convirtió en el baluarte de las potencias extranjeras que ocuparon China del Norte entre los siglos X y XII. La dinastía Liao estableció aquí su capital meridional, la más acreditada de las cinco del reino.
-              </p>
-            </div>
-            <div class="col m12" >
-              <p>
-                La dinastía Jin, la siguiente dinastía "bárbara" emprendió un amplio proyecto urbanístico a imagen de la capital de los Song septentrionales, Kaifeng. En 1215 los mongoles arrasaron la ciudad, pero 50 años después Kublai Kan decidió edificar en ella la nueva capital. <br>
-                En la zona centro-sur del trazado hipodámico se hallaba la colosal villa imperial que contenía el complejo de palacios imperiales. El emperador Yongle, el tercer Ming, decidió trasladar la capitalidad a Pekín. Las murallas del lado septentrional fueron trasladadas más hacia el Sur para que el complejo palaciego imperial, la llamada Ciudad Prohibida, quedase exactamente en el centro del plano. Así la estructura del nuevo Pekín representa la cima del urbanismo tradicional chino, basado en la organización introducida por los mongoles así como en la estructura de los palacios imperiales de Kaifeng y Nankín además tomar en consideración las normas de la geomancia china (風水).<br>
-                Pekín es uno de los cuatro municipios de China que poseen un estatus provincial y están bajo el control directo del gobierno central. Pekín ha sido municipalidad desde la creación de la República Popular China. Es una de las ciudades más pobladas de China, tan sólo superada por Shanghái en cuanto a población. Es considerada el corazón cultural, político y social de China.
-              </p>
-            </div>
+        </div>
+        <!--Columna para imagenes 1-->
+        <div class="col m4 center-align" >
+          <div class="card">
+            <img class="respomsive-img z-depth-3" src="imagenes/londres.jpg" alt="" width="100%"><br>
+            <img class="respomsive-img z-depth-3" src="imagenes/roma.jpg" alt="" width="100%"><br>
+          </div>
+        </div>
+        <!--Columna para imagenes 2-->
+        <div class="col m3 center-align" >
+          <div class="card">
+            <img class="respomsive-img z-depth-3" src="imagenes/eiffel.jpg" alt="" width="100%"><br>
+          </div>
+        </div>
+        <!--Columna para imagenes 3-->
+        <div class="col m4 center-align" >
+          <div class="card">
+            <img class="respomsive-img z-depth-3" src="imagenes/sydney.jpg" alt="" width="100%"><br>
+            <img class="respomsive-img z-depth-3"src="imagenes/egipto.jpg" alt="" width="100%"><br>
           </div>
         </div>
       </div>
-      <!--Columna para el Perfil del autor-->
-      <div class="col m4">
-        <div class="card">
-          <p>Perfil del autor</p>
+
+      <!--Fila para Contenido-->
+      <div class="row">
+        <!--Columna para el Articulo-->
+        <div class="col m8">
+          <div class="card">
+            <!--Primer Articulo-->
+            <div class="row">
+              <h3>Cancun</h3>
+              <div class="chip">
+                <h6>Fecha de publicacion: 4 de noviembre de 2016</h6>
+              </div>
+              <br>
+              <div class="chip">
+                  <h6>Ubicación: Cancun - Mexico</h6>
+              </div>
+              <br>
+              <div class="col m4">
+                <br><img src="imagenes/cancun.jpg" alt="" width="100%">
+              </div>
+              <div class="col m8 " >
+                <p>
+                  Cuenta con una zona metropolitana de más de 676 000 habitantes (según datos del Censo de Población y Vivienda de 2010). Sus coordenadas geográficas son 21°09′38″N 86°50′51″O, y su altitud va desde 1 a 8 msnm, debido a una pendiente que crece de este a oeste, paralela a toda la ciudad. Se ubica a una distancia de unos 370 km de la capital del estado de Quintana Roo —Chetumal—, a 70 km de Playa del Carmen; y colinda hacia el este con el mar Caribe, al norte con el municipio de Isla Mujeres, al oeste con el municipio de Lázaro Cárdenas, y al sur con el municipio de Solidaridad. La extensión del municipio de Benito Juárez es de 1664 km² y cuenta con 22 km de costa.<br>
+                </p>
+              </div>
+              <div class="col m12" >
+                <p>
+                  Cancún se encuentra ubicada al noreste de la península de Yucatán, y por la costa se puede observar claramente Isla Mujeres, posicionada al este, a 7 km de distancia en la llamada Bahía de Mujeres, zona que cruzan diversos barcos y lanchas que transportan todo el día a los pobladores de la isla hacia la parte continental.<br>
+                  Fernando Martí Brito, cronista oficial de Cancún, inicialmente dividió a Cancún en tres zonas, o tres "Cancunes", geográfica y socialmente hablando (datos de 1985).9​ Actualmente, Cancún se encuentra dividido en cinco zonas principales, perfectamente identificables para el gobierno municipal y la sociedad cancunense
+                </p>
+              </div>
+            </div>
+
+            <!--Segundo Articulo-->
+            <div class="row">
+              <h3>Pekin</h3>
+              <div class="chip">
+                <h6>Fecha de publicacion: 23 de Junio de 2001</h6>
+              </div>
+              <br>
+              <div class="chip">
+                <h6>Ubicación: Pekin - China</h6>
+              </div>
+              <br>
+              <div class="col m4">
+                <br><img src="imagenes/pekin2.jpg" alt="" width="100%">
+              </div>
+              <div class="col m8 " >
+                <p>
+                  Pekín, Pequín o Beijing (chino simplificado y tradicional: 北京, pinyin: Běijīng, Wade-Giles: Pei-ching, pronunciado: [Péi-Chíng]( escuchar), literalmente «capital del Norte») es la capital de la República Popular China y es una de las ciudades más pobladas del mundo con 21 150 000 personas en 2013. <br>
+                Situada en la periferia de la antigua civilización china, Pekín se convirtió en el baluarte de las potencias extranjeras que ocuparon China del Norte entre los siglos X y XII. La dinastía Liao estableció aquí su capital meridional, la más acreditada de las cinco del reino.
+                </p>
+              </div>
+              <div class="col m12" >
+                <p>
+                  La dinastía Jin, la siguiente dinastía "bárbara" emprendió un amplio proyecto urbanístico a imagen de la capital de los Song septentrionales, Kaifeng. En 1215 los mongoles arrasaron la ciudad, pero 50 años después Kublai Kan decidió edificar en ella la nueva capital. <br>
+                  En la zona centro-sur del trazado hipodámico se hallaba la colosal villa imperial que contenía el complejo de palacios imperiales. El emperador Yongle, el tercer Ming, decidió trasladar la capitalidad a Pekín. Las murallas del lado septentrional fueron trasladadas más hacia el Sur para que el complejo palaciego imperial, la llamada Ciudad Prohibida, quedase exactamente en el centro del plano. Así la estructura del nuevo Pekín representa la cima del urbanismo tradicional chino, basado en la organización introducida por los mongoles así como en la estructura de los palacios imperiales de Kaifeng y Nankín además tomar en consideración las normas de la geomancia china (風水).<br>
+                  Pekín es uno de los cuatro municipios de China que poseen un estatus provincial y están bajo el control directo del gobierno central. Pekín ha sido municipalidad desde la creación de la República Popular China. Es una de las ciudades más pobladas de China, tan sólo superada por Shanghái en cuanto a población. Es considerada el corazón cultural, político y social de China.
+                </p>
+              </div>
+            </div>
+
+            <!--Fila para comentarios-->
+            <div class="row z-depth-3">
+                <div class="col m12 z-depth-3" >
+                <br>
+                  <div class="chip">
+                    <h6>Comentarios</h6>
+                  </div>
+                  <div class="card">
+                    <div class="col m6 ">
+                      <label for="Nombre">Nombre</label>
+                      <input placeholder="Nombre" id="Nombre" type="text" class="validate">
+                    </div>
+                    <div class="col m6">
+                      <label for="e-mail">e-mail</label>
+                      <input id="email" type="email" placeholder="ejemplo@dominio.com" class="validate">
+                    </div>
+                    <div class="col m6">
+                      <label for="textarea1">Comentario</label>
+                      <textarea id="textarea1" placeholder="Comentario.." class="materialize-textarea"></textarea>
+                    </div>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+        </div>
+        <!--Columna para el Perfil del autor-->
+        <div class="col m4 center-align">
+          <div class="card">
+            <img class="circle respomsive-img z-depth-3"src="imagenes/Julian.png" alt="" >
+            <p>Julian Nieto</p>
+            <p>Ingeniero de Sistemas, experiencia en gerencia de proyectos, diseño y desarrollo de soluciones empresariales, administración de redes; capacidad analítica, excelentes relaciones personales, adaptabilidad al cambio y al aprendizaje continuo, persistente y orientado a resultados</p>
+          </div>
         </div>
       </div>
-    </div>
+      <div class="parallax-container">
+        <div class="parallax"><img src="imagenes/winter.jpg"></div>
+      </div>
+
+
+
   </body>
 </html>
